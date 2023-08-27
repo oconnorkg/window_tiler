@@ -13,4 +13,5 @@ It's just for Windows, and it's meant to run in the background all the time. The
  - CTRL-ALT-1 -> CTRL-ALT-9 : Restores your desktop window positions and sizes, that you must have previously saved into one of these 9 slots.
  
 ## Building:
+ - Stop searching, there's no exe built for it here (I'll do it sometime). You have to build it - maybe download and install https://visualstudio.microsoft.com/vs/community
  - I've included the Visual Studio 2022 solution, but you can just grab the .cpp file and build it in whatever - the only thing to remember in compiler settings is it's using the Multi-Byte Character Set, not Unicode (Visual Studio 2022: Project->Settings->Advanced->Character Set).
