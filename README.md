@@ -15,5 +15,6 @@ It's just for Windows, and it's meant to run in the background all the time. The
  - CTRL-ALT-1 -> CTRL-ALT-9 : Restores your desktop window positions and sizes, that you must have previously saved into one of these 9 slots.
  
 ## Building:
- - There's a pre-built exe over on the right of this page under "Releases". But if you want to build from source...
+ - There's a pre-built exe over on the right of this page under "Releases". At the moment Windows will block you running it. I'm looking into how to fix this, but until then you can unblock it by right-clicking the exe, selecting Properties and clicking the Unblock checkbox, then OK.
+ - But if you want to build from source...
  - I've included the Visual Studio 2022 solution, but you can just grab the .cpp file and build it in whatever - the only thing to remember in compiler settings is it's using the Multi-Byte Character Set, not Unicode (Visual Studio 2022: Project->Settings->Advanced->Character Set).
