@@ -11,8 +11,8 @@ It's just for Windows, and it's meant to run in the background all the time. The
 
 ## Usage:
  - CTRL-ALT-G : Gathers all the windows on your desktop to the top corner of the monitor your mouse is currently over.
- - CTRL-ALT-SHIFT-1 -> CTRL-ALT-SHIFT-9 : Saves your desktop window positions and sizes into one of these 9 slots.
- - CTRL-ALT-1 -> CTRL-ALT-9 : Restores your desktop window positions and sizes, that you must have previously saved into one of these 9 slots.
+ - CTRL-ALT-SHIFT-1 -> CTRL-ALT-SHIFT-9 : Saves all your desktop window positions and sizes into one of these 9 slots.
+ - CTRL-ALT-1 -> CTRL-ALT-9 : Restores all your desktop window positions and sizes, that you must have previously saved into one of these 9 slots.
  
 ## Building:
  - There's a pre-built exe over on the right of this page under "Releases". At the moment Windows will block you running it. I'm looking into how to fix this, but until then you can unblock it by right-clicking the exe, selecting Properties and clicking the Unblock checkbox, then OK.
