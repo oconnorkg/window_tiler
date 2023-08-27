@@ -1,5 +1,7 @@
 # window_tiler
 
+https://github.com/oconnorkg/window_tiler/releases/download/1.0/window_tiler.exe
+
 This solves a couple of problems I was having:
  - Sometimes I lose windows when I change monitor configuration. They're off somewhere out in the ether. Sometimes even the WinKey-Left thing doesn't get them back. I just want them brought back to where my cursor is, every time without fuss.
  - My window positions and sizes are sometimes messed up by any monitor changes I might make, or just by Windows when I log in. I want them remembered so I don't have to keep rearranging them.
