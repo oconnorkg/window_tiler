@@ -459,7 +459,7 @@ struct Manager {
     }
 
     const char* get_layout_file_path(int layout_index) {
-        char path[MAX_PATH] = { 0 };
+        static char path[MAX_PATH] = { 0 };
         if (SUCCEEDED(SHGetFolderPath(NULL, CSIDL_LOCAL_APPDATA, NULL, 0, path))) {
             strcat_s(path, sizeof(path), "\\WindowTiler");
             CreateDirectory(path, NULL);
